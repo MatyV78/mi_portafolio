@@ -1,0 +1,40 @@
+body {
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-position: center center; 
+    }
+
+.carousel-inner img {
+  height: 500px;           
+  object-fit: cover;      
+}
+
+/*#################################################*/
+
+/* Para títulos de la card */
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem; /* un poco más grande para destacar */
+}
+
+/* Para texto de la card */
+.card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: justify; /* opcional: texto más ordenado */
+    margin-top: 10px;
+}
+
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover; /* para que la imagen siempre se vea bien */
+    height: 200px;     /* todas las imágenes del mismo alto */
+}
